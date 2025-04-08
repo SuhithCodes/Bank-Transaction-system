@@ -1,17 +1,7 @@
 # Two-Phase Distributed Commit System (2PC)
-
-# CSE5306 Distributed Systems - Project 2
-
-This project implements a distributed transaction coordinator system using XML-RPC for communication between a transaction coordinator and debit/credit nodes. The system ensures that transactions are processed consistently across multiple nodes with fault tolerance using the Two-Phase Commit (2PC) protocol.
-
-## Academic Integrity Statement
-
-I have neither given nor received unauthorized assistance with this work. I will not post the project description and the solution online.
-
 **Contributors:**
 
-- SWETA SANDHYA NAYAK (1002127265) - Date: 24TH JUNE, 2024
-- SUHITH GHANATHAY (1002170591) - Date: 24TH JUNE, 2024
+- SUHITH GHANATHAY - Date: 24TH JUNE, 2024
 
 ## Table of Contents
 
@@ -157,26 +147,6 @@ pip install tinydb
 - XMLRPC usage in distributed systems
 - Debugging and troubleshooting distributed applications
 - Command-line interface development
-
-## Team Contributions
-
-**Suhith Ghanathay:**
-
-- System design
-- Base 2PC implementation
-- Locking mechanism
-- TC fault tolerance
-- Bank transaction logic
-- Test scenarios
-- Report review
-
-**Sweta Sandhya Nayak:**
-
-- Account database setup
-- Node fault tolerance
-- TinyDB integration
-- Test scenarios
-- Documentation and reporting
 
 ## Challenges Faced
 
